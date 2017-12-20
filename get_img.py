@@ -257,6 +257,7 @@ def svm_run(trains_path='svm_trains_file', test_path='svm_test_file', trains_num
     get_trains(trains_path, trains_num)
     get_test(test_path, test_num)
 
+svm_run(test_num=10)
 
 
 
